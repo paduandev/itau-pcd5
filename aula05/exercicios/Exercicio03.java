@@ -12,10 +12,13 @@ public class Exercicio03 {
 
         cont = 1;
 
+        // Solução 2
         while (cont <= limite /2 ) { // /2 pois para um número antes do final
             
             System.out.print(cont + ", ");
             
+            // Solução 1
+            // System.out.print(cont);
             // int proximoNumero = cont * 2;
             // if(proximoNumero <= limite) { // existirá outro número depois?
             //     System.out.print(", ");
@@ -24,7 +27,7 @@ public class Exercicio03 {
             cont *= 2; // cont = cont * 2;
         }
         
-        System.out.print(cont);
+        System.out.println(cont);
 
         entrada.close();
     }
