@@ -1,0 +1,6 @@
+    // ALT + SHIFT + SETA = copia a linha ou bloco
+    // ALT  + SETA = mover a linha ou bloco
+    // CTRL + D = marcar várias palavras para edição simultânea
+    // ALT + SHIFT + F = formatar o documento
+    // CTRL + ´ = desloca para esquerda
+    // CTRL + [ = desloca para direita
