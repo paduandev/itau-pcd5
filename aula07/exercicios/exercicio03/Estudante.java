@@ -8,8 +8,9 @@ public class Estudante extends Pessoa {
         this.curso = curso;
     }
 
-    public String getDados() {
-        return super.getDados() + " - " + curso;
+    @Override
+    public String toString() {
+        return super.toString() + " - " + curso;
     }
 
 }
