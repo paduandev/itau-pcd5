@@ -1,9 +1,8 @@
-import modelo.Conta;
-import modelo.ContaCorrente;
+import modelo.ContaEspecial;
 
 public class AppContas {
     public static void main(String[] args) {
-        ContaCorrente conta = new ContaCorrente(123);
+        ContaEspecial conta = new ContaEspecial(123, 100);
 
         System.out.println(conta);
 
