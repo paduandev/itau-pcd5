@@ -1,11 +1,12 @@
 package modelo;
 
-public class Conta {
+public abstract class Conta { // classe abstrata = modelo para outras classes, não pode instanciar objetos
     private int numero;
     private double saldo;
 
     public Conta(int numero) {
         this.numero = numero;
+        // this.saldo = 0;
     }
 
     public int getNumero() {
