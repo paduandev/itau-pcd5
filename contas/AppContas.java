@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-import dados.GerenciaContas;
+// import dados.GerenciaContas;
+import dados.GerenciaContasHash;
 
 public class AppContas {
     public static void main(String[] args) {
@@ -8,7 +9,8 @@ public class AppContas {
         int opcao = 0, numeroConta;
         double limite, valor;
 
-        GerenciaContas contas = new GerenciaContas();
+        // GerenciaContas contas = new GerenciaContas();
+        GerenciaContasHash contas = new GerenciaContasHash();
 
         while (opcao != 7) {
 
